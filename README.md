@@ -26,7 +26,7 @@ This is a simple web-based calorie calculator that estimates your Total Daily En
 
 ## Disclaimers
 
-**Read our disclaimer here:** [Calorie Calculator Disclaimer](/Calorie-Calculator-Disclaimer.md)
+**Read our disclaimer here:** [Calorie Calculator Disclaimer](/DISCLAIMER.md)
 
 ## Installation
 

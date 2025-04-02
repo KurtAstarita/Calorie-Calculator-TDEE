@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator (TDEE)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="calorie-calculator">
+        <h3>Calorie Calculator (TDEE)</h3>
+        <label>Age:</label>
+        <input id="age" type="number" />
+        <br />
+        <label>Gender:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br />
+        <label>Height:</label>
+        <input id="height" type="number" />
+        <select id="height-unit">
+            <option value="cm">cm</option>
+            <option value="inches">inches</option>
+        </select>
+        <br />
+        <label>Weight:</label>
+        <input id="weight" type="number" />
+        <select id="weight-unit">
+            <option value="kg">kg</option>
+            <option value="lbs">lbs</option>
+        </select>
+        <br />
+        <label>Activity Level:</label>
+        <select id="activity">
+            <option value="1.2">Sedentary (little or no exercise)</option>
+            <option value="1.375">Lightly active (light exercise/sports 1-3 days/week)</option>
+            <option value="1.55">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+            <option value="1.725">Very active (hard exercise/sports 6-7 days a week)</option>
+            <option value="1.9">Extra active (very hard exercise/sports & physical job or 2x training)</option>
+        </select>
+        <br />
+        <label>Goal:</label>
+        <select id="goal">
+            <option value="maintain">Maintain Weight</option>
+            <option value="lose">Lose Weight</option>
+            <option value="gain">Gain Weight</option>
+        </select>
+        <br />
+        <button id="calculate-calories">Calculate Calories</button>
+        <p id="calorie-result"></p>
+    </div>
+</body>
+</html>

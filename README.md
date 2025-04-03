@@ -24,10 +24,6 @@ This is a simple web-based calorie calculator that estimates your Total Daily En
 -   `script.js`: The JavaScript file containing the calculation logic.
 -   `style.css`: The CSS file containing the styling for the calculator.
 
-## Disclaimers
-
-**Read our disclaimer here:** [Calorie Calculator Disclaimer](/DISCLAIMER.md)
-
 ## Installation
 
 1.  Clone the repository.
@@ -48,3 +44,11 @@ This project is open-source.
 ## Note
 
 -   This calculator provides estimates and should not replace professional dietary advice.
+
+## Disclaimers
+
+**Read our disclaimer here:** [Calorie Calculator Disclaimer](/DISCLAIMER.md)
+
+## Embed App
+
+* [How To Embed](https://post40gains.blogspot.com/p/how-to-embed-our-apps.html)

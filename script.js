@@ -1,15 +1,17 @@
-// script.js
 document.getElementById("calculate-calories").addEventListener("click", function() {
-    // Function to sanitize input (mainly to trim whitespace)
     function sanitizeInput(input) {
-        return input.trim();
+        return DOMPurify.sanitize(input);
     }
 
-    var age = parseFloat(sanitizeInput(document.getElementById("age").value));
+    var ageInput = sanitizeInput(document.getElementById("age").value);
+    var heightInput = sanitizeInput(document.getElementById("height").value);
+    var weightInput = sanitizeInput(document.getElementById("weight").value);
+
+    var age = parseFloat(ageInput);
     var gender = document.getElementById("gender").value;
-    var height = parseFloat(sanitizeInput(document.getElementById("height").value));
+    var height = parseFloat(heightInput);
     var heightUnit = document.getElementById("height-unit").value;
-    var weight = parseFloat(sanitizeInput(document.getElementById("weight").value));
+    var weight = parseFloat(weightInput);
     var weightUnit = document.getElementById("weight-unit").value;
     var activity = parseFloat(document.getElementById("activity").value);
     var goal = document.getElementById("goal").value;
